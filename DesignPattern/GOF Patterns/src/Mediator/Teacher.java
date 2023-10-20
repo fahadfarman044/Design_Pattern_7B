@@ -9,6 +9,8 @@ package Mediator;
  *
  * @author fa20-bse-044
  */
-public interface AbstractUser {
-    public void sendMessage(String message);
+public class Teacher extends User{
+    public Teacher(String name) {
+        super(name);
+    }
 }

@@ -9,6 +9,23 @@ package Mediator;
  *
  * @author fa20-bse-044
  */
-class User {
-    
+public class User implements AbstractUser{
+    private String name;
+
+    public String getName() {
+       return name;
+    }
+
+    public void setName(String name) {
+       this.name = name;
+    }
+
+    public User(String name){
+       this.name  = name;
+    }
+
+    @Override
+    public void sendMessage(String message){
+        ChatRoom.showMessage(this,message);
+    }
 }

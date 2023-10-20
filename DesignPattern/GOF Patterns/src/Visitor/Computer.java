@@ -15,7 +15,7 @@ public abstract class Computer implements ComputerPart {
    ComputerPart[] parts;
 
    public Computer(){
-       parts = new ComputerPart[] {new Mouse(), new Keyboard(), new Monitor() {
+   parts = new ComputerPart[] {new Mouse(), new Keyboard(), new Monitor() {
          
           public void start() {
               throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
