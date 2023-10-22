@@ -10,10 +10,9 @@ package Visitor;
  */
 public class Mouse implements ComputerPart {
 
-   @Override
-   public void accept(ComputerPartVisitor computerPartVisitor) {
-      computerPartVisitor.visit(this);
-   }
+    public void accept(ComputerPartVisitor computerPartVisitor) {
+       computerPartVisitor.visit(this);
+    }
 
     @Override
     public void accept(ComputerPartDisplayVisitor computerPartDisplayVisitor) {

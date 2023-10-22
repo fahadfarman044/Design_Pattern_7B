@@ -4,33 +4,52 @@
  */
 package Visitor;
 
+import javax.management.monitor.Monitor;
+
 /**
  *
  * @author DELL
  */
 public class ComputerPartDisplayVisitor implements ComputerPartVisitor {
 
-   @Override
-   public void visit(Computer computer) {
-      System.out.println("Displaying Computer.");
-   }
+    /**
+     *
+     * @param computer
+     */
+    @Override
+    public void visit(Computer computer) {
+       System.out.println("Displaying Computer.");
+    }
 
-   @Override
-   public void visit(Mouse mouse) {
-      System.out.println("Displaying Mouse.");
-   }
+    /**
+     *
+     * @param mouse
+     */
+    @Override
+    public void visit(Mouse mouse) {
+       System.out.println("Displaying Mouse.");
+    }
 
-   @Override
-   public void visit(Keyboard keyboard) {
-      System.out.println("Displaying Keyboard.");
-   }
-
-   public void visit(Monitor monitor) {
-      System.out.println("Displaying Monitor.");
-   }
+    /**
+     *
+     * @param keyboard
+     */
+    @Override
+    public void visit(Keyboard keyboard) {
+       System.out.println("Displaying Keyboard.");
+    }
 
     @Override
-    public void visit(javax.management.monitor.Monitor monitor) {
+    public void visit(Monitor monitor) {
+       System.out.println("Displaying Monitor.");
+    }
+    
+    @Override
+    public void visit(Multimedia multimedia) {
+       System.out.println("Displaying Multimedia.");
+    }
+
+    public void visit(Visitor.Monitor aThis) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

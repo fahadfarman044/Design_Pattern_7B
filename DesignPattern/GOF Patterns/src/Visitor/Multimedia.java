@@ -8,19 +8,9 @@ package Visitor;
  *
  * @author DELL
  */
-public class Computer implements ComputerPart {
-	
-    ComputerPart[] parts;
-
-    public Computer(){
-       parts = new ComputerPart[] {new Mouse(), new Keyboard(), new Monitor(), new Multimedia()};		
-    } 
-
+public class Multimedia implements ComputerPart{
 
     public void accept(ComputerPartVisitor computerPartVisitor) {
-       for (int i = 0; i < parts.length; i++) {
-          parts[i].accept((ComputerPartDisplayVisitor) computerPartVisitor);
-       }
        computerPartVisitor.visit(this);
     }
 

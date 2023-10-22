@@ -8,8 +8,6 @@ package Visitor;
  *
  * @author DELL
  */
-interface ComputerPart {
-
-    public void accept(ComputerPartDisplayVisitor computerPartDisplayVisitor);
-    
+public interface ComputerPartMaintainer {
+    public void maintain(Multimedia multimedia);
 }
