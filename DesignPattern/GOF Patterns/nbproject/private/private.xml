@@ -3,30 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/Decorator/Circle.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/Decorator/RedShapeDecorator.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/SimpleObserver/BinaryObserver.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/SimpleObserver/HexaObserver.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/Singleton/Test.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/oobserver/Publisher.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/Decorator/ShapeDecorator.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/SimpleObserver/Subject.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/GOF/ChainofResponsibility/Loan.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/oobserver/Demo.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/SimpleObserver/Observer.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/SimpleObserver/OctalObserver.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/oobserver/Subscriber.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/Decorator/Rectangle.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/Decorator/DecoratorPatternDemo.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/GOF/ChainofResponsibility/BankEmployee.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/oobserver/WhiteShirt.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/GOF/ChainofResponsibility/BaseApprover.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/oobserver/Person.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/SimpleObserver/ObserverPatternDemo.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/GOF/ChainofResponsibility/Approver.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/GOF/ChainofResponsibility/Main.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/Singleton/BillingSystem.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/CHAINOFRESPONSIBILTY/src/Decorator/Shape.java</file>
+            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/Main.java</file>
+            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/ComputerPartVisitor.java</file>
+            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/Keyboard.java</file>
+            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/Computer.java</file>
+            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/Mouse.java</file>
+            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/ComputerPart.java</file>
+            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/Monitor.java</file>
+            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/ComputerPartDisplayVisitor.java</file>
         </group>
     </open-files>
 </project-private>
