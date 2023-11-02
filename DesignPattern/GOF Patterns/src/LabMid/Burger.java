@@ -13,7 +13,6 @@ abstract class Burger extends MealDecorator {
         super(meal);
     }
 
-    @Override
     public String getDescription() {
         return super.getDescription() + ", Burger";
     }

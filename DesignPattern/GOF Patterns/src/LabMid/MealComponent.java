@@ -13,6 +13,12 @@ public interface MealComponent {
     double price();
 
     public double getPrice();
+
+    public static class string {
+
+        public string() {
+        }
+    }
     
     
 }
