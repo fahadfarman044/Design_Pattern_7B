@@ -9,6 +9,10 @@ package Builder;
  *
  * @author fa20-bse-044
  */
-public class Bottle {
-    
+public class Bottle implements Packing {
+
+   @Override
+   public String pack() {
+      return "Bottle";
+   }
 }

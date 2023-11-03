@@ -10,5 +10,5 @@ package Builder;
  * @author fa20-bse-044
  */
 public interface Packing {
-    
+   public String pack();
 }

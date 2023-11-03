@@ -9,6 +9,11 @@ package Builder;
  *
  * @author fa20-bse-044
  */
-public class ColdDrink {
-    
+public abstract class ColdDrink implements Item {
+
+	public Packing packing() {
+       return new Bottle();
+	}
+
+	public abstract float price();
 }

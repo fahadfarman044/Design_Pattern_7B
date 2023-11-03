@@ -9,6 +9,14 @@ package Builder;
  *
  * @author fa20-bse-044
  */
-public class VegBurger {
-    
+public class VegBurger extends Burger {
+
+   @Override
+   public float price() {
+      return 25.0f;
+   }
+
+   public String name() {
+      return "Veg Burger";
+   }
 }

@@ -3,20 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Builder;
+package Builder.Lab_Task;
 
 /**
  *
  * @author fa20-bse-044
  */
-public class Pepsi extends ColdDrink {
-
-   @Override
-   public float price() {
-      return 35.0f;
-   }
-
-   public String name() {
-      return "Pepsi";
-   }
+public interface Item {
+    
 }

@@ -9,6 +9,11 @@ package Builder;
  *
  * @author fa20-bse-044
  */
-public class Burger {
-    
+public abstract class Burger implements Item {
+
+   public Packing packing() {
+      return new Wrapper();
+   }
+
+   public abstract float price();
 }
