@@ -10,5 +10,5 @@ package Strategy;
  * @author fa20-bse-044
  */
 public interface Strategy {
-    
+   public int doOperation(int num1, int num2);
 }
