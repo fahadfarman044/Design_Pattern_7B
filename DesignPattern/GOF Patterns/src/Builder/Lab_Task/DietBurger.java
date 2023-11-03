@@ -9,6 +9,15 @@ package Builder.Lab_Task;
  *
  * @author fa20-bse-044
  */
-public class DietBurger {
-    
+public class DietBurger extends Burger {
+
+   @Override
+   public float price() {
+      return 45.5f;
+   }
+
+   @Override
+   public String name() {
+      return "Diet Burger";
+   }
 }

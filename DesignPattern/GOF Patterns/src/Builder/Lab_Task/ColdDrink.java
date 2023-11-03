@@ -5,10 +5,19 @@
  */
 package Builder.Lab_Task;
 
+import Builder.Packing;
+
 /**
  *
  * @author fa20-bse-044
  */
-public class ColdDrink {
-    
+public abstract class ColdDrink implements Item {
+
+	@Override
+	public Packing packing() {
+            return new Bottle();
+	}
+
+	@Override
+	public abstract float price();
 }

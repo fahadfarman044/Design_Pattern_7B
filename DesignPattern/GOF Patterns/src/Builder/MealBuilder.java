@@ -24,4 +24,12 @@ public class MealBuilder {
       meal.addItem(new Pepsi());
       return meal;
    }
+
+    public Meal prepareDietMeal() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public Meal prepareTea() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

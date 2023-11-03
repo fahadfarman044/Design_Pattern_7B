@@ -5,10 +5,15 @@
  */
 package Builder.Lab_Task;
 
+import Builder.Packing;
+
 /**
  *
  * @author fa20-bse-044
  */
 public interface Item {
-    
+   public String name();
+   public Packing packing();
+   public float price();
+
 }

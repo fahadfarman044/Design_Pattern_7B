@@ -5,10 +5,16 @@
  */
 package Builder.Lab_Task;
 
+import Builder.Packing;
+
 /**
  *
  * @author fa20-bse-044
  */
-public class DisposibleCup {
-    
+public class DisposibleCup implements Packing {
+
+   @Override
+   public String pack() {
+      return "Disposible Cup";
+   }
 }

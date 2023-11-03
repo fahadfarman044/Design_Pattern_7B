@@ -5,10 +5,21 @@
  */
 package Builder.Lab_Task;
 
+import Builder.Packing;
+
 /**
  *
  * @author fa20-bse-044
  */
-public class HotDrink {
-    
+public abstract class HotDrink implements Item {
+
+	@Override
+	public Packing packing() {
+            return new DisposibleCup();
+	}
+
+	@Override
+	public abstract float price();
+        
+        public void addToppings(){};
 }

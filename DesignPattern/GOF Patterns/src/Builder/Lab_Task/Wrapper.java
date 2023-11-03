@@ -9,6 +9,10 @@ package Builder.Lab_Task;
  *
  * @author fa20-bse-044
  */
-public class Wrapper {
-    
+public class Wrapper implements Packing {
+
+   @Override
+   public String pack() {
+      return "Wrapper";
+   }
 }

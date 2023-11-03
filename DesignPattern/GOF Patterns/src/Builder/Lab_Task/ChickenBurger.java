@@ -9,6 +9,15 @@ package Builder.Lab_Task;
  *
  * @author fa20-bse-044
  */
-public class ChickenBurger {
-    
+public class ChickenBurger extends Burger {
+
+   @Override
+   public float price() {
+      return 50.5f;
+   }
+
+   @Override
+   public String name() {
+      return "Chicken Burger";
+   }
 }

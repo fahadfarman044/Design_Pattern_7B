@@ -3,17 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Builder.Lab_Task;
-
-import Builder.Packing;
+package AbstractFactory;
 
 /**
  *
  * @author fa20-bse-044
  */
-public class Bottle implements Packing {
-
-   public String pack() {
-      return "Bottle";
-   }
+public abstract class AbstractFactory {
+   abstract Shape getShape(String shapeType) ;
 }
