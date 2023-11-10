@@ -40,4 +40,8 @@ public abstract class Shape implements Cloneable {
       
       return clone;
    }
+
+    String getType(String abc) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
