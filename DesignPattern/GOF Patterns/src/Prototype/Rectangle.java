@@ -9,6 +9,14 @@ package Prototype;
  *
  * @author fa20-bse-044
  */
-public class Rectangle {
-    
+public class Rectangle extends Shape {
+
+   public Rectangle(){
+     type = "Rectangle";
+   }
+
+   @Override
+   public void draw() {
+      System.out.println("Inside Rectangle::draw() method.");
+   }
 }
