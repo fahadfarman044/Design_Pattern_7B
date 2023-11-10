@@ -8,7 +8,7 @@ package LabMid;
  *
  * @author DELL
  */
-abstract class Burger extends MealDecorator {
+ class Burger extends MealDecorator {
     public Burger(MealComponent meal) {
         super(meal);
     }

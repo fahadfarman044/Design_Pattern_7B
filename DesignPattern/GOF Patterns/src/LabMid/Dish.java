@@ -8,7 +8,7 @@ package LabMid;
  *
  * @author DELL
  */
-abstract class Dish implements MealComponent {
+ class Dish implements MealComponent {
     private String name;
     private double price;
 

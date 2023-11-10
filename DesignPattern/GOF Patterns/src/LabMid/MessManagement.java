@@ -8,7 +8,7 @@ package LabMid;
  *
  * @author DELL
  */
-public class MessManagementApp {
+public class MessManagement {
     public static void main(String[] args) {
       
         MealComponent meal = new Dish("Pasta", 10.0);
