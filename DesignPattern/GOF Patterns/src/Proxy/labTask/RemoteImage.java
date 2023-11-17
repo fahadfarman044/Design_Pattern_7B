@@ -9,8 +9,6 @@ package Proxy.labTask;
  *
  * @author fa20-bse-044
  */
-public class ProtectedImage implements Image {
-    public void display(String imageType) {
-        System.out.println("Displaying image for correct user of Type "+imageType);
-    }
+public class RemoteImage {
+    
 }

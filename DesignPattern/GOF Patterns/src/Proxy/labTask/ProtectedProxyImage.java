@@ -9,6 +9,20 @@ package Proxy.labTask;
  *
  * @author fa20-bse-044
  */
-public class ProtectedProxyImage {
-    
+public class ProtectedProxyImage implements Image{
+    private String allowedUsers;
+    private String userName;
+    public ProtectedProxyImage(String userName){
+        this.userName = userName;
+        allowedUsers = "ali,fahad";
+    }
+    public void display(String imageType) {
+        if(allowedUsers.contains(userName)){
+            System.out.println(userName + " authenticated.");
+            new ProtectedImage().display(imageType);
+        }
+        else {
+            System.out.println(userName + " not authenticated and display a fake image to him.");
+        }
+    }
 }

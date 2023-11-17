@@ -26,4 +26,8 @@ public class RealImage implements Image {
    private void loadFromDisk(String fileName){
       System.out.println("Loading " + fileName);
    }
+
+    public void display(String imageType) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
