@@ -9,6 +9,10 @@ package Facade.LabTask;
  *
  * @author fa20-bse-044
  */
-public class Square {
-    
+public class Square implements Shape {
+
+   @Override
+   public void draw() {
+      System.out.println("Square::draw()");
+   }
 }

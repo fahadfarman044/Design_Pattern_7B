@@ -10,5 +10,9 @@ package Facade.LabTask;
  * @author fa20-bse-044
  */
 public class FacadePatternDemo {
-    
+    public static void main(String[] args) {
+        ShapeMaker shapeMaker = new ShapeMaker();
+
+        shapeMaker.draw("circle,rectangle,square,triangle");
+    }
 }

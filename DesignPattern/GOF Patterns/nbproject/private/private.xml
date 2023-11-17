@@ -3,18 +3,32 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/ComputerPartMaintainer.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/ComputerPartVisitor.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/Keyboard.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/Multimedia.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/VisitorMain.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/Mouse.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/Computer.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/ComputerPart.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/ComputerPartSpecificMaintainer.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/Monitor.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Computer.java</file>
-            <file>file:/C:/Users/DELL/OneDrive/Desktop/Design_Pattern_Lab/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Visitor/ComputerPartDisplayVisitor.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Proxy/ProxyImage.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Proxy/labTask/RemoteProxyImage.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Proxy/labTask/ProtectedImage.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Facade/LabTask/Rectangle.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Proxy/Image.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Facade/LabTask/ShapeMaker.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Facade/LabTask/FacadePatternDemo.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Proxy/labTask/Image.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Facade/Square.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Facade/Rectangle.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Facade/FacadePatternDemo.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Facade/LabTask/Circle.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Facade/Circle.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Facade/LabTask/Shape.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Proxy/labTask/ProtectedExamResults.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Proxy/labTask/RealImage.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Proxy/RealImage.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Facade/Shape.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Proxy/labTask/ProtectedProxyImage.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Facade/ShapeMaker.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Proxy/labTask/Demo.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Proxy/ProxyPatternDemo.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Facade/LabTask/Square.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Proxy/labTask/RemoteImage.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Facade/LabTask/Triangle.java</file>
+            <file>file:/Z:/Design_Pattern_7B/DesignPattern/GOF%20Patterns/src/Proxy/labTask/ProxyImage.java</file>
         </group>
     </open-files>
 </project-private>

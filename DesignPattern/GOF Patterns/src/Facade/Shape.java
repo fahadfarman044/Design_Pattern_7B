@@ -10,5 +10,5 @@ package Facade;
  * @author fa20-bse-044
  */
 public interface Shape {
-    
+   void draw();
 }

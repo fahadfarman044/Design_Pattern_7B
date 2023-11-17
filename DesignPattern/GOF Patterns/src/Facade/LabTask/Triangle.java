@@ -9,6 +9,9 @@ package Facade.LabTask;
  *
  * @author fa20-bse-044
  */
-public class Triangle {
-    
+class Triangle implements Shape {
+    @Override
+    public void draw() {
+        System.out.println("Triangle::draw()");
+    }
 }

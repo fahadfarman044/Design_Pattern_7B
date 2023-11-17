@@ -9,6 +9,10 @@ package Facade;
  *
  * @author fa20-bse-044
  */
-public class Rectangle {
-    
+public class Rectangle implements Shape {
+
+   @Override
+   public void draw() {
+      System.out.println("Rectangle::draw()");
+   }
 }
