@@ -9,6 +9,19 @@ package Proxy.labTask;
  *
  * @author fa20-bse-044
  */
-public class RealImage {
-    
+public class RealImage implements Image {
+    private String fileName;
+
+    public RealImage(String fileName){
+        this.fileName = fileName;
+        loadFromDisk(fileName);
+    }
+
+    public void display(String imageType) {
+        System.out.println("Displaying " + fileName);
+    }
+
+    private void loadFromDisk(String fileName){
+        System.out.println("Loading " + fileName);
+    }
 }

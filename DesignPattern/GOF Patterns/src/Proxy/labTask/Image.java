@@ -10,5 +10,7 @@ package Proxy.labTask;
  * @author fa20-bse-044
  */
 public interface Image {
+
+    public void display(String jpg);
     
 }

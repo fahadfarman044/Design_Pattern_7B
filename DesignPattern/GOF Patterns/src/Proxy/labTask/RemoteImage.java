@@ -9,6 +9,8 @@ package Proxy.labTask;
  *
  * @author fa20-bse-044
  */
-public class RemoteImage {
-    
+public class RemoteImage implements Image{
+    public void display(String actualSource) {
+        System.out.println("Loaing image from actual source "+actualSource);
+    }
 }
