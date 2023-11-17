@@ -10,5 +10,5 @@ package Proxy;
  * @author fa20-bse-044
  */
 public interface Image {
-    
+   void display();
 }
