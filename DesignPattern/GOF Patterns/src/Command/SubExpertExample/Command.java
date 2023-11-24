@@ -11,8 +11,22 @@ package Command.SubExpertExample;
  */
 class Command {
 
+    static Object SubExpertExample;
+
     void execute() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    static class SubExpertExample {
+
+        public SubExpertExample() {
+        }
+
+        static class Light {
+
+            public Light() {
+            }
+        }
     }
     
 }

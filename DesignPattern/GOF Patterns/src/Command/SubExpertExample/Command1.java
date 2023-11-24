@@ -9,6 +9,9 @@ package Command.SubExpertExample;
  *
  * @author fa20-bse-044
  */
-public interface Command1 {
-    
+//Command Interface
+
+public interface Command1{
+
+    public void execute();
 }

@@ -3,20 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Command.SubExpertExample;
+package Command.RefacotringGuruExample;
+
+import Command.RefacotringGuruExample.Editor.Editor;
 
 /**
  *
  * @author fa20-bse-044
  */
-class RemoteControl {
+public class CopyCommand extends Command {
 
-    void setCommand(Command lightsOn) {
+    public CopyCommand(Editor editor) {
+        super(editor);
+    }
+
+    public CopyCommand(Editor editor) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    void pressButton() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public boolean execute() {
+        editor.clipboard = editor.textField.getSelectedText();
+        return false;
     }
-    
 }

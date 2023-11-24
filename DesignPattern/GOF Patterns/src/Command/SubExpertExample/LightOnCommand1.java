@@ -9,6 +9,9 @@ package Command.SubExpertExample;
  *
  * @author fa20-bse-044
  */
-public class LightOnCommand1 {
+public class LightOnCommand1 extends Command {
+
+    public LightOnCommand1(Light light) {
+    }
     
 }

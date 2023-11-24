@@ -9,6 +9,18 @@ package Command.SubExpertExample;
  *
  * @author fa20-bse-044
  */
+//Receiver
+
 public class Light {
-    
+
+    private boolean isOn;
+
+    public void switchOn() {
+        isOn = true;
+    }
+
+    public void switchOff() {
+        isOn = false;
+    }
+
 }
