@@ -9,14 +9,15 @@ package Adapter;
  *
  * @author fa20-bse-044
  */
-public class VlcPlayer implements AdvancedMediaPlayer{
+public class Mp4Player implements AdvancedMediaPlayer{
+
    @Override
    public void playVlc(String fileName) {
-      System.out.println("Playing vlc file. Name: "+ fileName);		
+      //do nothing
    }
 
    @Override
    public void playMp4(String fileName) {
-      //do nothing
+      System.out.println("Playing mp4 file. Name: "+ fileName);		
    }
 }
