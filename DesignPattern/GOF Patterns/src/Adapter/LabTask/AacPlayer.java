@@ -5,10 +5,24 @@
  */
 package Adapter.LabTask;
 
+import Adapter.AdvancedMediaPlayer;
+
 /**
  *
  * @author fa20-bse-044
  */
-public class AacPlayer {
-    
+public class AacPlayer implements AdvancedMediaPlayer {
+    public void play(String fileName) {
+        System.out.println("Playing AAC file. Name: " + fileName);
+    }
+
+    @Override
+    public void playVlc(String fileName) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void playMp4(String fileName) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

@@ -9,6 +9,14 @@ package Command;
  *
  * @author fa20-bse-044
  */
-public class SellStock {
-    
+public class SellStock implements Order {
+   private Stock abcStock;
+
+   public SellStock(Stock abcStock){
+      this.abcStock = abcStock;
+   }
+
+   public void execute() {
+      abcStock.sell();
+   }
 }

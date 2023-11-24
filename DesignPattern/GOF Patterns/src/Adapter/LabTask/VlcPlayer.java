@@ -9,6 +9,19 @@ package Adapter.LabTask;
  *
  * @author fa20-bse-044
  */
-public class VlcPlayer {
-    
+public class VlcPlayer implements AdvancedMediaPlayer{
+   @Override
+   public void playVlc(String fileName) {
+      System.out.println("Playing vlc file. Name: "+ fileName);		
+   }
+
+   @Override
+   public void playMp4(String fileName) {
+      //do nothing
+   }
+
+    @Override
+    public void play(String fileName) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

@@ -3,26 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Adapter.LabTask;
+package Command.SubExpertExample;
 
 /**
  *
  * @author fa20-bse-044
  */
-public class Mp4Player implements AdvancedMediaPlayer{
+class Command {
 
-   @Override
-   public void playVlc(String fileName) {
-      //do nothing
-   }
-
-   @Override
-   public void playMp4(String fileName) {
-      System.out.println("Playing mp4 file. Name: "+ fileName);		
-   }
-
-    @Override
-    public void play(String fileName) {
+    void execute() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
 }

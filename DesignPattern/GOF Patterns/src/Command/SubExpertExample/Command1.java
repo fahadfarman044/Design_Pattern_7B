@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Command;
+package Command.SubExpertExample;
 
 /**
  *
  * @author fa20-bse-044
  */
-public interface Order {
-   void execute();
+public interface Command1 {
+    
 }

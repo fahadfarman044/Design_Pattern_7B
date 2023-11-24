@@ -10,5 +10,5 @@ package Adapter.LabTask;
  * @author fa20-bse-044
  */
 public interface MediaPlayer {
-    
+   public void play(String audioType, String fileName);
 }

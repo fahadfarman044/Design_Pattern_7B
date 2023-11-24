@@ -10,5 +10,9 @@ package Adapter.LabTask;
  * @author fa20-bse-044
  */
 public interface AdvancedMediaPlayer {
-    
+   public void play(String fileName);
+
+    public void playVlc(String fileName);
+
+    public void playMp4(String fileName);
 }
