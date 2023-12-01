@@ -9,8 +9,13 @@ package Composite.Labtask;
  *
  * @author fa20-bse-044
  */
-class DOO extends BaseEmployee {
-    public DOO(String name, double salary) {
+class HOD extends BaseEmployee {
+    public HOD(String name, double salary) {
         super(name, salary);
     }
+
+    void addSubordinate(Teacher teacher1) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
+

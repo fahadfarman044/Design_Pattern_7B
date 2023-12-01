@@ -9,6 +9,6 @@ package Composite.Labtask;
  *
  * @author fa20-bse-044
  */
-public interface Observer {
-    
+interface Observer {
+    void update(double bonus);
 }

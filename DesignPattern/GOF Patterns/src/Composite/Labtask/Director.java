@@ -9,6 +9,16 @@ package Composite.Labtask;
  *
  * @author fa20-bse-044
  */
-public class Director {
-    
+class Director extends BaseEmployee {
+    public Director(String name, double salary) {
+        super(name, salary);
+    }
+
+    void addSubordinate(HOD hod1) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void addSubordinate(DOO doo) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

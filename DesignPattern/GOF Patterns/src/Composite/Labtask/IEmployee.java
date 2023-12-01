@@ -5,10 +5,14 @@
  */
 package Composite.Labtask;
 
+import java.util.Observer;
+
 /**
  *
  * @author fa20-bse-044
  */
-public interface IEmployee {
-    
+interface IEmployee extends Observer {
+    void giveBonus(double bonus);
+    double calculateSalary();
+    Iterable<IEmployee> getSubordinates(); // Iterable for subordinates
 }
