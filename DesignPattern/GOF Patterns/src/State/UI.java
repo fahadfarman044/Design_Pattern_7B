@@ -24,10 +24,6 @@ class UI {
         this.player = player;
     }
 
-    UI(Player player) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
     public void init() {
         JFrame frame = new JFrame("Music Player");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -39,13 +35,13 @@ class UI {
         context.add(buttons);
 
         JButton play = new JButton("Play");
-        play.addActionListener(e -> textField.setText(player.getState().onPlay()));
+        //play.addActionListener(e -> textField.setText(player.getState().onPlay()));
         JButton stop = new JButton("Stop");
-        stop.addActionListener(e -> textField.setText(player.getState().onLock()));
+       // stop.addActionListener(e -> textField.setText(player.getState().onLock()));
         JButton next = new JButton("Next");
-        next.addActionListener(e -> textField.setText(player.getState().onNext()));
+       // next.addActionListener(e -> textField.setText(player.getState().onNext()));
         JButton prev = new JButton("Prev");
-        prev.addActionListener(e -> textField.setText(player.getState().onPrevious()));
+       // prev.addActionListener(e -> textField.setText(player.getState().onPrevious()));
         frame.setVisible(true);
         frame.setSize(300, 100);
         buttons.add(play);

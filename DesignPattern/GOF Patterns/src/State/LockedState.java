@@ -15,10 +15,6 @@ class LockedState extends State {
         player.setPlaying(false);
     }
 
-    LockedState(Player player) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
     @Override
     public String onLock() {
         if (player.isPlaying()) {
