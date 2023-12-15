@@ -10,5 +10,6 @@ package Memento;
  * @author fa20-bse-044
  */
 public interface Command {
-    
+    String getName();
+    void execute();
 }
