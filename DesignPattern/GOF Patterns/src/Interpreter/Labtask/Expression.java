@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Interpreter.TutorialPoint;
+package Interpreter.Labtask;
 
 /**
  *
  * @author fa20-bse-044
  */
 public interface Expression {
-   public boolean interpret(String context);
+
+    public boolean interpret(String context);
+    
 }
