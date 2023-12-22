@@ -9,9 +9,8 @@ package FactoryMethod.CsharpExample;
  *
  * @author fa20-bse-044
  */
-class ConcreteProductYOURS implements Product {
-    @Override
-    public void print() {
-        System.out.println("this=" + this + " print YOURS");
+public class CityPerson implements IPerson {
+    public String getName() {
+        return "City Person";
     }
 }

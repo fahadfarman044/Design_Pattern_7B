@@ -9,6 +9,6 @@ package FactoryMethod.CsharpExample;
  *
  * @author fa20-bse-044
  */
-interface Product {
-    void print();
+public interface IPerson {
+    String getName();
 }

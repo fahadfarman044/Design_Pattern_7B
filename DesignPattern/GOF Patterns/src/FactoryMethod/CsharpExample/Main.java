@@ -11,12 +11,14 @@ package FactoryMethod.CsharpExample;
  */
 public class Main {
     public static void main(String[] args) {
-      
-        Creator creator = new ConcreteCreator();
-        Product product = creator.create(ProductId.MINE);
-        product.print();
+        PersonFactory personFactory = new PersonFactory();
 
-        product = creator.create(ProductId.YOURS);
-        product.print();
+        // Create a rural person (Villager)
+        IPerson ruralPerson = personFactory.getPerson(PersonType.Rural);
+        System.out.println("Rural Person: " + ruralPerson.getName());
+
+        // Create an urban person (CityPerson)
+        IPerson urbanPerson = personFactory.getPerson(PersonType.Urban);
+        System.out.println("Urban Person: " + urbanPerson.getName());
     }
 }

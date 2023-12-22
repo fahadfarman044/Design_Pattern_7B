@@ -9,8 +9,8 @@ package FactoryMethod.CsharpExample;
  *
  * @author fa20-bse-044
  */
-interface Creator {
-    Product create(ProductId id);
+public class Villager implements IPerson {
+    public String getName() {
+        return "Village Person";
+    }
 }
-
-enum ProductId {MINE, YOURS}
