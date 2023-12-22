@@ -13,7 +13,7 @@ public class Main {
        public static void main(String[] args) {
            testDevice(new Tv());
            testDevice(new Radio());
-           testDevice(new AC()); // Test AC
+           testDevice(new AC()); 
        }
 
        public static void testDevice(Device device) {
