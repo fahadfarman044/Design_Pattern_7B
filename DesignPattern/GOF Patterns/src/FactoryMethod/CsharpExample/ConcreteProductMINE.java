@@ -9,6 +9,9 @@ package FactoryMethod.CsharpExample;
  *
  * @author fa20-bse-044
  */
-interface Product {
-    void print();
+class ConcreteProductMINE implements Product {
+    @Override
+    public void print() {
+        System.out.println("this=" + this + " print MINE");
+    }
 }

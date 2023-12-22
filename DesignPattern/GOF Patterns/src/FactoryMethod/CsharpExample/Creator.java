@@ -9,6 +9,8 @@ package FactoryMethod.CsharpExample;
  *
  * @author fa20-bse-044
  */
-interface Product {
-    void print();
+interface Creator {
+    Product create(ProductId id);
 }
+
+enum ProductId {MINE, YOURS}
